@@ -1,4 +1,4 @@
-stat = {
+{
     "Account Name": "jhfiuytowuirytoireter",
     "Commander": "Pyronis",
     "Lvl": 1,
@@ -18,6 +18,6 @@ stat = {
         "EARTH ATK": 0,
         "AIR ATK": 0,
         "ELECTRIC ATK": 0,
-        "SHADOW ATK": 0,
+        "SHADOW ATK": 0
     }
 }
