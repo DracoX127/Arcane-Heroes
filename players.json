@@ -19,5 +19,28 @@
         "AIR ATK": 0,
         "ELECTRIC ATK": 0,
         "SHADOW ATK": 0
+    },
+    "t": {
+        "Account Name": "t",
+        "Commander": "Pyronis",
+        "Lvl": 1,
+        "Exp": 0,
+        "Gold": 1000,
+        "Heroes": {},
+        "Equipped Items": {},
+        "Items": {},
+        "Buffs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPD": 0,
+            "CRIT": 0,
+            "FIRE ATK": 20,
+            "WATER ATK": 0,
+            "EARTH ATK": 0,
+            "AIR ATK": 0,
+            "ELECTRIC ATK": 0,
+            "SHADOW ATK": 0
+        }
     }
 }
