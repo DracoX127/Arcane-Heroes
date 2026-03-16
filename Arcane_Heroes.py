@@ -25,13 +25,14 @@ else:
     time.sleep(1)
 
 '''
-1. Player Registeration and Login System
-2. Shop System with Inventory Management
-3. Skill Tree and Character Progression
-4. List of Heroes with Unique Abilities and Stats
-5. List of Monsters with Unique Abilities and Stats
-6. Quest System with Multiple Objectives and Rewards
-7. Battle System with Turn-Based Combat
+1. Player Registeration ✅
+2. Login System ✅
+3. Shop System with Inventory Management
+4. Skill Tree and Character Progression
+5. List of Heroes with Unique Abilities and Stats
+6. List of Monsters with Unique Abilities and Stats
+7. Quest System with Multiple Objectives and Rewards
+8. Battle System with Turn-Based Combat
 '''
 
 # ======Clear Player Save======
@@ -137,7 +138,6 @@ def save_players(players, filename="players.json"):
     with open(filename, "w") as file:
         json.dump(players, file, indent=4)
 
-
 def creating_account_animation(name):
     from colorama import Fore, Style
     import sys, time, os
@@ -159,6 +159,31 @@ def creating_account_animation(name):
         time1 = random.choice([0.075, 0.08, 0.09, 0.1, 0.065, 0.06, 1.01])
         time.sleep(time1)
     print(f"\n{Fore.LIGHTGREEN_EX}Account successfully created! Welcome, {name}!{Fore.RESET}")
+    time.sleep(1)
+    clear_term()
+def login_animation(name):
+    from colorama import Fore, Style
+    import sys, time, os
+
+    def clear_term():
+        if platform.system() == "Windows":
+            os.system('cls')
+        else:
+            os.system('clear')
+
+    bar_length = 30
+    clear_term()
+    print(f"{Fore.CYAN}{Style.BRIGHT}Accessing Arcane Archives for {Fore.MAGENTA}{name}{Fore.CYAN}...{Style.RESET_ALL}")
+
+    for i in range(bar_length + 1):
+        percent = int((i / bar_length) * 100)
+        bar = '■' * i + ' ' * (bar_length - i)
+        sys.stdout.write(f"\r{Fore.GREEN}[{bar}]{Fore.RESET} {percent}%")
+        sys.stdout.flush()
+        time1 = random.choice([0.075, 0.08, 0.09, 0.1, 0.065, 0.06, 1.01])
+        time.sleep(time1)
+
+    print(f"\n{Fore.LIGHTGREEN_EX}🔓 Login successful! Welcome back, {name}!{Fore.RESET}")
     time.sleep(1)
     clear_term()
 
@@ -216,9 +241,9 @@ def welcome() -> Dict[str, Any]:
             print(f"{Fore.RED}Invalid input! Please enter a number (1 or 2).{Fore.RESET}")
 
     clear()
-    if response == 1:
-        name = input("Enter your name: ")
-        print(f"Name: {name}")
+    if response == 1: # Register
+        print(f"{Fore.LIGHTGREEN_EX}{Style.BRIGHT}🆕 Registration Portal{Style.RESET_ALL}")
+        name = input(f"{Fore.MAGENTA}{Style.BRIGHT}Enter your account name: {Style.RESET_ALL}").strip()
         clear()
 
         if name in players: # Check if the name already exists in the players dictionary
@@ -388,5 +413,25 @@ def welcome() -> Dict[str, Any]:
             os.system('git commit -m "Player Save"')
             os.system('git push')
             return stat
+    elif response == 2: # Login
+        clear()
+        print(f"{Fore.LIGHTCYAN_EX}{Style.BRIGHT}🔐 Login Portal{Style.RESET_ALL}")
+        name = input(f"{Fore.MAGENTA}{Style.BRIGHT}Enter your account name: {Style.RESET_ALL}").strip()
+
+        if name not in players:
+            print(f"{Fore.RED}❌ Account not found! Please register first.{Fore.RESET}")
+            time.sleep(2)
+            return welcome()
+
+        # Load the existing player's stats
+        stat = players[name]
+
+        print(f"{Fore.LIGHTGREEN_EX}✅ Welcome back, {name}! Loading your adventure...{Fore.RESET}")
+        time.sleep(1)
+
+        login_animation(name)
+
+        return stat
+
 
 stats = welcome()
