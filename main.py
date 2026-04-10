@@ -38,7 +38,7 @@ from colorama import Fore, Style
 - List of Heroes with Unique Abilities and Stats
 - List of Monsters with Unique Abilities and Stats
 - Quest System with Multiple Objectives and Rewards
-- Skill Tree and Character Progression ***PRIORITY***
+- Skill Tree and Character Progression ✅
 - Battle System with Turn-Based Combat
 '''
 
