@@ -1,106 +1,65 @@
-import os
-import sys
-import subprocess
-import time
-import json
-import types
-from typing import Any, Dict
+"""
+Arcane Heroes — Compatibility Shim
+Re-exports constants and UI helpers so legacy imports continue to work.
+New code should import directly from `config` and `ui`.
+"""
 
-class _BlankPalette:
-    def __getattr__(self, _name):
-        return ""
+# Re-export all constants from config.py
+from config import (
+    SKILL_TREE_BRANCHES,
+    SKILL_TREE_BONUSES,
+    SKILL_TREE_COLORS,
+    COMMANDER_ELEMENTS,
+    COMMANDER_NAMES,
+    # Economy constants (for backward compat with any external imports)
+    PANEL_WIDTH,
+    LEDGER_LIMIT,
+    RARITY_COLORS,
+    ELEMENT_COLORS,
+    CATEGORY_COLORS,
+    BRANCH_ORDER,
+    BRANCH_CONFIG,
+    BRANCH_MODIFIERS,
+    PRESET_DURATIONS,
+    SHOP_MILESTONE_REWARDS,
+    COMMANDER_ELEMENT_NAMES,
+    COMMANDER_RESOURCE_IDS,
+    LOADOUT_SLOT_LABELS,
+    MODIFIER_LABELS,
+    RARITY_VALUE_MULTIPLIERS,
+    CATEGORY_VALUE_MULTIPLIERS,
+    STAT_VALUE_WEIGHTS,
+    TRADER_ARCHETYPES,
+    TREND_LABELS,
+    PLAYERS_FILE,
+    SHOP_DATA_FILE,
+)
 
-def ensure_colorama():
-    os.system("cls" if os.name == "nt" else "clear")
-    try:
-        from colorama import just_fix_windows_console
+# Re-export UI helpers from ui.py (legacy names)
+from ui import (
+    ensure_colorama,
+    clear,
+    clear_last_line,
+    typed_print as type,
+    fast_typed_print as fasttype,
+    visible_len as _visible_len,
+    pad as _pad,
+    line as _line,
+    title as _title,
+    panel as _panel,
+    prompt as _prompt,
+    divider,
+    status_bar,
+    menu_option,
+    header_art,
+    footer_art,
+    small_header,
+    info_line,
+    choice_prompt,
+    progress_bar,
+    ANSI_PATTERN,
+)
 
-        just_fix_windows_console()
-        return
-    except ImportError:
-        check = input(
-            "This GAME requires additional components to function properly. "
-            "Do you want to allow the installation of the necessary files(Colorama)?: (Y/N): "
-        ).strip().lower()
-        if check == "y":
-            print("Installing necessary files...")
-            time.sleep(1)
-            subprocess.check_call([sys.executable, "-m", "pip", "install", "colorama"])
-            from colorama import just_fix_windows_console
+# Legacy internal name preserved for any direct references
+_BlankPalette = __import__("ui", fromlist=["_BlankPalette"])._BlankPalette
 
-            just_fix_windows_console()
-            print("Installation complete! Starting the game...")
-            time.sleep(1)
-            return
-
-        print(
-            "You have chosen not to install the necessary files. "
-            "The game may not function properly without them. Starting the game anyway..."
-        )
-        time.sleep(1)
-        blank = _BlankPalette()
-        sys.modules["colorama"] = types.SimpleNamespace(
-            Fore=blank,
-            Style=blank,
-            just_fix_windows_console=lambda: None,
-        )
-
-from colorama import Fore
-
-ensure_colorama()
-
-SKILL_TREE_BRANCHES = [
-    "ATK",
-    "HP",
-    "DEF",
-    "SPD",
-    "CRIT CHANCE",
-    "FIRE ATK",
-    "WATER ATK",
-    "EARTH ATK",
-    "AIR ATK",
-    "ELECTRIC ATK",
-    "SHADOW ATK",
-]
-SKILL_TREE_BONUSES = {
-    "ATK": 3,
-    "HP": 30,
-    "DEF": 3,
-    "SPD": 2,
-    "CRIT CHANCE": 2,
-    "FIRE ATK": 5,
-    "WATER ATK": 5,
-    "EARTH ATK": 5,
-    "AIR ATK": 5,
-    "ELECTRIC ATK": 5,
-    "SHADOW ATK": 5,
-}
-COMMANDER_ELEMENTS = {
-    "Pyronis": "FIRE ATK",
-    "Aquaryn": "WATER ATK",
-    "Terradon": "EARTH ATK",
-    "Zephyros": "AIR ATK",
-    "Voltaris": "ELECTRIC ATK",
-    "Noctyra": "SHADOW ATK",
-}
-COMMANDER_NAMES = {
-    1: "Pyronis",
-    2: "Aquaryn",
-    3: "Terradon",
-    4: "Zephyros",
-    5: "Voltaris",
-    6: "Noctyra",
-}
-SKILL_TREE_COLORS = {
-    "ATK": Fore.LIGHTRED_EX,
-    "HP": Fore.LIGHTGREEN_EX,
-    "DEF": Fore.LIGHTBLUE_EX,
-    "SPD": Fore.CYAN,
-    "CRIT CHANCE": Fore.LIGHTYELLOW_EX,
-    "FIRE ATK": Fore.RED,
-    "WATER ATK": Fore.BLUE,
-    "EARTH ATK": Fore.GREEN,
-    "AIR ATK": Fore.CYAN,
-    "ELECTRIC ATK": Fore.YELLOW,
-    "SHADOW ATK": Fore.MAGENTA,
-}

@@ -1,4 +1,4 @@
-Arcane Heroes — Gameplay
+Arcane Heroes  Gameplay
 Arcane Heroes is a terminal RPG where u build and lead a team of elemental heroes as a commander. Recruit heroes, gear them up, fight monsters, complete quests, and grow stronger through leveling and skill trees to become the most powerful commander in the arcane world.
 
 ⚔️ Commander System

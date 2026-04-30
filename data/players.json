@@ -1,0 +1,1755 @@
+{
+    "t": {
+        "Account Name": "t",
+        "Commander": "Pyronis",
+        "Lvl": 3,
+        "Exp": 61,
+        "Gold": 1690,
+        "Skill Points": 2,
+        "Skill Tree": {
+            "ATK": 2,
+            "HP": 1,
+            "DEF": 1,
+            "SPD": 1,
+            "CRIT CHANCE": 1,
+            "FIRE ATK": 1,
+            "WATER ATK": 1,
+            "EARTH ATK": 1,
+            "AIR ATK": 1,
+            "ELECTRIC ATK": 1,
+            "SHADOW ATK": 1
+        },
+        "Heroes": {
+            "fire_01": {
+                "id": "fire_01",
+                "level": 1,
+                "rank": 1,
+                "soul_stones": 0
+            },
+            "fire_07": {
+                "id": "fire_07",
+                "level": 1,
+                "rank": 1,
+                "soul_stones": 0
+            },
+            "earth_02": {
+                "id": "earth_02",
+                "level": 1,
+                "rank": 1,
+                "soul_stones": 0
+            },
+            "air_03": {
+                "id": "air_03",
+                "level": 1,
+                "rank": 1,
+                "soul_stones": 0
+            },
+            "electric_04": {
+                "id": "electric_04",
+                "level": 1,
+                "rank": 1,
+                "soul_stones": 0
+            },
+            "shadow_22": {
+                "id": "shadow_22",
+                "level": 1,
+                "rank": 1,
+                "soul_stones": 0
+            }
+        },
+        "Equipped Items": {},
+        "Items": {},
+        "Buffs": {
+            "ATK": 3,
+            "HP": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "CRIT CHANCE": 0,
+            "FIRE ATK": 20,
+            "WATER ATK": 0,
+            "EARTH ATK": 0,
+            "AIR ATK": 0,
+            "ELECTRIC ATK": 0,
+            "SHADOW ATK": 0
+        },
+        "Economy Reputation": 0,
+        "Economy Ledger": [],
+        "Claimed Shop Milestones": [
+            1
+        ],
+        "Shop Level": 1,
+        "Economy Tree": {
+            "Merchant": 0,
+            "Forge": 0,
+            "Exchange": 0,
+            "Alchemy": 0,
+            "Relics": 0,
+            "Logistics": 0,
+            "Barter": 0,
+            "Prestige": 0
+        },
+        "Economy Actions": 0,
+        "Active Permits": [],
+        "Market State": {},
+        "Item Meta": {},
+        "Shop Purchase History": {},
+        "Consumable Buffs": {},
+        "Hero Codex": {
+            "fire_01": {
+                "state": "owned",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_01": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_01": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_01": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_01": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_01": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_02": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_02": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_02": {
+                "state": "owned",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_02": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_02": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_02": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_03": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_03": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_03": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_03": {
+                "state": "owned",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_03": {
+                "state": "encountered",
+                "favorite": false,
+                "encountered_at": 1777507439
+            },
+            "shadow_03": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_04": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_04": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_04": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_04": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_04": {
+                "state": "owned",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_04": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_05": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_05": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_05": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_05": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_05": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_05": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_06": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_06": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_06": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_06": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_06": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_06": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_07": {
+                "state": "owned",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_07": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_07": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_07": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_07": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_07": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_08": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_08": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_08": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_08": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_08": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_08": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_09": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_09": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_09": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_09": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_09": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_09": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_10": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_10": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_10": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_10": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_10": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_10": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_11": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_11": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_11": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_11": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_11": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_11": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_12": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_12": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_12": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_12": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_12": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_12": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_13": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_13": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_13": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_13": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_13": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_13": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_14": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_14": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_14": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_14": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_14": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_14": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_15": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_15": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_15": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_15": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_15": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_15": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_16": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_16": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_16": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_16": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_16": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_16": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_17": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_17": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_17": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_17": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_17": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_17": {
+                "state": "encountered",
+                "favorite": false,
+                "encountered_at": 1777507443
+            },
+            "fire_18": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_18": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_18": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_18": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_18": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_18": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_19": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_19": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_19": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_19": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_19": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_19": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_20": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_20": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_20": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_20": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_20": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_20": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_21": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_21": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_21": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_21": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_21": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_21": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_22": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_22": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_22": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_22": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_22": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_22": {
+                "state": "owned",
+                "favorite": false,
+                "encountered_at": 1777507424
+            },
+            "fire_23": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_23": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_23": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_23": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_23": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_23": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_24": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_24": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_24": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_24": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_24": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_24": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            }
+        },
+        "Mailbox": [
+            {
+                "subject": "Welcome to Arcane Heroes",
+                "body": "Commander t, your hero roster is now online. Head to Heroes to inspect your squad, then start running missions and battles.",
+                "tag": "System",
+                "read": true,
+                "at": 1777507248
+            },
+            {
+                "subject": "ASTRA Bot Online",
+                "body": "ASTRA has synced with Pyronis. Open the AI Bot menu any time for squad, mission, and mailbox guidance.",
+                "tag": "AI",
+                "read": true,
+                "at": 1777507248
+            },
+            {
+                "subject": "Exploration Log: Aurora Wilds",
+                "body": "Your squad charted new territory and returned with 90 Gold and 40 XP worth of progress.",
+                "tag": "Explore",
+                "read": true,
+                "at": 1777507419
+            },
+            {
+                "subject": "Hero Encountered: Penumbral Saint",
+                "body": "You spotted Penumbral Saint during Obsidian Stair. Their codex silhouette has become a real identity entry.",
+                "tag": "Codex",
+                "read": true,
+                "at": 1777507424
+            },
+            {
+                "subject": "Exploration Log: Obsidian Stair",
+                "body": "Your squad charted new territory and returned with 170 Gold and 80 XP worth of progress.",
+                "tag": "Explore",
+                "read": true,
+                "at": 1777507425
+            },
+            {
+                "subject": "New Hero Recruited: Penumbral Saint",
+                "body": "Penumbral Saint answered your call after Coral Vault. Full stats and skills are now unlocked in Heroes.",
+                "tag": "Recruit",
+                "read": true,
+                "at": 1777507433
+            },
+            {
+                "subject": "Exploration Log: Coral Vault",
+                "body": "Your squad charted new territory and returned with 130 Gold and 55 XP worth of progress.",
+                "tag": "Explore",
+                "read": true,
+                "at": 1777507433
+            },
+            {
+                "subject": "Hero Encountered: Static Weaver",
+                "body": "You spotted Static Weaver during Coral Vault. Their codex silhouette has become a real identity entry.",
+                "tag": "Codex",
+                "read": true,
+                "at": 1777507439
+            },
+            {
+                "subject": "Exploration Log: Coral Vault",
+                "body": "Your squad charted new territory and returned with 130 Gold and 55 XP worth of progress.",
+                "tag": "Explore",
+                "read": true,
+                "at": 1777507440
+            },
+            {
+                "subject": "Hero Encountered: Crescent Whisper",
+                "body": "You spotted Crescent Whisper during Obsidian Stair. Their codex silhouette has become a real identity entry.",
+                "tag": "Codex",
+                "read": true,
+                "at": 1777507443
+            },
+            {
+                "subject": "Exploration Log: Obsidian Stair",
+                "body": "Your squad charted new territory and returned with 170 Gold and 80 XP worth of progress.",
+                "tag": "Explore",
+                "read": true,
+                "at": 1777507444
+            }
+        ],
+        "AI Bot": {
+            "name": "ASTRA",
+            "mode": "Tactical Guide",
+            "status": "Online"
+        },
+        "Battle Record": {
+            "Missions Completed": 0,
+            "Missions Failed": 0,
+            "Explorations": 5,
+            "Battles Won": 0,
+            "Battles Lost": 0,
+            "Bosses Defeated": 0,
+            "Heroes Recruited": 1
+        }
+    },
+    "Terry Chang": {
+        "Account Name": "Terry Chang",
+        "Commander": "Pyronis",
+        "Lvl": 1,
+        "Exp": 0,
+        "Gold": 1000,
+        "Skill Points": 1,
+        "Skill Tree": {
+            "ATK": 1,
+            "HP": 1,
+            "DEF": 1,
+            "SPD": 1,
+            "CRIT CHANCE": 1,
+            "FIRE ATK": 1,
+            "WATER ATK": 1,
+            "EARTH ATK": 1,
+            "AIR ATK": 1,
+            "ELECTRIC ATK": 1,
+            "SHADOW ATK": 1
+        },
+        "Heroes": {
+            "fire_01": {
+                "id": "fire_01",
+                "level": 1,
+                "rank": 1,
+                "soul_stones": 0
+            },
+            "fire_07": {
+                "id": "fire_07",
+                "level": 1,
+                "rank": 1,
+                "soul_stones": 0
+            },
+            "earth_02": {
+                "id": "earth_02",
+                "level": 1,
+                "rank": 1,
+                "soul_stones": 0
+            },
+            "air_03": {
+                "id": "air_03",
+                "level": 1,
+                "rank": 1,
+                "soul_stones": 0
+            },
+            "electric_04": {
+                "id": "electric_04",
+                "level": 1,
+                "rank": 1,
+                "soul_stones": 0
+            }
+        },
+        "Equipped Items": {},
+        "Items": {},
+        "Buffs": {
+            "ATK": 0,
+            "HP": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "CRIT CHANCE": 0,
+            "FIRE ATK": 20,
+            "WATER ATK": 0,
+            "EARTH ATK": 0,
+            "AIR ATK": 0,
+            "ELECTRIC ATK": 0,
+            "SHADOW ATK": 0
+        },
+        "Economy Reputation": 0,
+        "Economy Ledger": [],
+        "Claimed Shop Milestones": [
+            1
+        ],
+        "Shop Level": 1,
+        "Economy Tree": {
+            "Merchant": 0,
+            "Forge": 0,
+            "Exchange": 0,
+            "Alchemy": 0,
+            "Relics": 0,
+            "Logistics": 0,
+            "Barter": 0,
+            "Prestige": 0
+        },
+        "Economy Actions": 0,
+        "Active Permits": [],
+        "Market State": {},
+        "Item Meta": {},
+        "Shop Purchase History": {},
+        "Consumable Buffs": {},
+        "Hero Codex": {
+            "fire_01": {
+                "state": "owned",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_01": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_01": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_01": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_01": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_01": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_02": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_02": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_02": {
+                "state": "owned",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_02": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_02": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_02": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_03": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_03": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_03": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_03": {
+                "state": "owned",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_03": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_03": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_04": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_04": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_04": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_04": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_04": {
+                "state": "owned",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_04": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_05": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_05": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_05": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_05": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_05": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_05": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_06": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_06": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_06": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_06": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_06": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_06": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_07": {
+                "state": "owned",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_07": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_07": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_07": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_07": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_07": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_08": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_08": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_08": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_08": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_08": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_08": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_09": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_09": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_09": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_09": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_09": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_09": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_10": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_10": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_10": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_10": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_10": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_10": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_11": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_11": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_11": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_11": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_11": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_11": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_12": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_12": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_12": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_12": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_12": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_12": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_13": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_13": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_13": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_13": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_13": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_13": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_14": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_14": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_14": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_14": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_14": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_14": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_15": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_15": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_15": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_15": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_15": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_15": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_16": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_16": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_16": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_16": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_16": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_16": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_17": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_17": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_17": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_17": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_17": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_17": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_18": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_18": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_18": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_18": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_18": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_18": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_19": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_19": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_19": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_19": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_19": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_19": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_20": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_20": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_20": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_20": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_20": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_20": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_21": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_21": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_21": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_21": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_21": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_21": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_22": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_22": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_22": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_22": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_22": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_22": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_23": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_23": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_23": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_23": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_23": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_23": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "fire_24": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "water_24": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "earth_24": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "air_24": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "electric_24": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            },
+            "shadow_24": {
+                "state": "unknown",
+                "favorite": false,
+                "encountered_at": 0
+            }
+        },
+        "Mailbox": [
+            {
+                "subject": "Welcome to Arcane Heroes",
+                "body": "Commander Terry Chang, your hero roster is now online. Head to Heroes to inspect your squad, then start running missions and battles.",
+                "tag": "System",
+                "read": false,
+                "at": 1777507248
+            },
+            {
+                "subject": "ASTRA Bot Online",
+                "body": "ASTRA has synced with Pyronis. Open the AI Bot menu any time for squad, mission, and mailbox guidance.",
+                "tag": "AI",
+                "read": false,
+                "at": 1777507248
+            }
+        ],
+        "AI Bot": {
+            "name": "ASTRA",
+            "mode": "Tactical Guide",
+            "status": "Online"
+        },
+        "Battle Record": {
+            "Missions Completed": 0,
+            "Missions Failed": 0,
+            "Explorations": 0,
+            "Battles Won": 0,
+            "Battles Lost": 0,
+            "Bosses Defeated": 0,
+            "Heroes Recruited": 0
+        }
+    }
+}

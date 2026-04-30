@@ -1,0 +1,1196 @@
+{
+  "rarity_tiers": [
+    "Common",
+    "Uncommon",
+    "Rare",
+    "Epic",
+    "Mythic",
+    "Legendary"
+  ],
+  "elements": [
+    "Fire",
+    "Water",
+    "Earth",
+    "Air",
+    "Electric",
+    "Shadow"
+  ],
+  "slots": [
+    "weapon",
+    "head",
+    "chest",
+    "hands",
+    "legs",
+    "feet",
+    "accessory_1",
+    "accessory_2",
+    "relic",
+    "charm",
+    "sigil",
+    "banner"
+  ],
+  "items": [
+    {
+      "id": "ember_draught",
+      "name": "Ember Draught",
+      "category": "Consumables",
+      "target": "commander",
+      "slot": null,
+      "rarity": "Common",
+      "element": "Fire",
+      "description": "A bottled surge of fire mana that permanently sharpens the commander's flame damage.",
+      "price_gold": 140,
+      "unlock_shop_level": 1,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "consumable",
+      "stats": {},
+      "economy": {},
+      "use_effects": [
+        {
+          "type": "grant_buff",
+          "stat": "FIRE ATK",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "id": "tide_draught",
+      "name": "Tide Draught",
+      "category": "Consumables",
+      "target": "commander",
+      "slot": null,
+      "rarity": "Common",
+      "element": "Water",
+      "description": "A cool tonic that permanently strengthens water-aligned strikes.",
+      "price_gold": 140,
+      "unlock_shop_level": 1,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "consumable",
+      "stats": {},
+      "economy": {},
+      "use_effects": [
+        {
+          "type": "grant_buff",
+          "stat": "WATER ATK",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "id": "root_draught",
+      "name": "Root Draught",
+      "category": "Consumables",
+      "target": "commander",
+      "slot": null,
+      "rarity": "Common",
+      "element": "Earth",
+      "description": "A dense earthen brew that permanently boosts earth pressure.",
+      "price_gold": 140,
+      "unlock_shop_level": 1,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "consumable",
+      "stats": {},
+      "economy": {},
+      "use_effects": [
+        {
+          "type": "grant_buff",
+          "stat": "EARTH ATK",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "id": "gale_draught",
+      "name": "Gale Draught",
+      "category": "Consumables",
+      "target": "commander",
+      "slot": null,
+      "rarity": "Common",
+      "element": "Air",
+      "description": "This bright potion leaves a permanent trace of air speed in every attack.",
+      "price_gold": 140,
+      "unlock_shop_level": 1,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "consumable",
+      "stats": {},
+      "economy": {},
+      "use_effects": [
+        {
+          "type": "grant_buff",
+          "stat": "AIR ATK",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "id": "spark_draught",
+      "name": "Spark Draught",
+      "category": "Consumables",
+      "target": "commander",
+      "slot": null,
+      "rarity": "Common",
+      "element": "Electric",
+      "description": "A crackling tonic that permanently sharpens electric bursts.",
+      "price_gold": 140,
+      "unlock_shop_level": 1,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "consumable",
+      "stats": {},
+      "economy": {},
+      "use_effects": [
+        {
+          "type": "grant_buff",
+          "stat": "ELECTRIC ATK",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "id": "veil_draught",
+      "name": "Veil Draught",
+      "category": "Consumables",
+      "target": "commander",
+      "slot": null,
+      "rarity": "Common",
+      "element": "Shadow",
+      "description": "A midnight elixir that permanently empowers shadow damage.",
+      "price_gold": 140,
+      "unlock_shop_level": 1,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "consumable",
+      "stats": {},
+      "economy": {},
+      "use_effects": [
+        {
+          "type": "grant_buff",
+          "stat": "SHADOW ATK",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "id": "skill_spark",
+      "name": "Skill Spark",
+      "category": "Consumables",
+      "target": "commander",
+      "slot": null,
+      "rarity": "Rare",
+      "element": null,
+      "description": "A focused arcane flare that crystallizes into a single skill point.",
+      "price_gold": 260,
+      "unlock_shop_level": 2,
+      "stock_rule": "limited",
+      "stock_limit": 2,
+      "restock_seconds": 3600,
+      "market_allowed": true,
+      "sell_profile": "consumable",
+      "stats": {},
+      "economy": {},
+      "use_effects": [
+        {
+          "type": "grant_skill_points",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "market_writ",
+      "name": "Market Writ",
+      "category": "Consumables",
+      "target": "commander",
+      "slot": null,
+      "rarity": "Rare",
+      "element": null,
+      "description": "A stamped permit that opens one extra listing slot for four real-world hours.",
+      "price_gold": 240,
+      "unlock_shop_level": 2,
+      "stock_rule": "limited",
+      "stock_limit": 2,
+      "restock_seconds": 3600,
+      "market_allowed": true,
+      "sell_profile": "consumable",
+      "stats": {},
+      "economy": {},
+      "use_effects": [
+        {
+          "type": "grant_listing_permit_hours",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "id": "ashbrand_spear",
+      "name": "Ashbrand Spear",
+      "category": "Weapons",
+      "target": "any",
+      "slot": "weapon",
+      "rarity": "Uncommon",
+      "element": "Fire",
+      "description": "A disciplined fire spear built for commanders or heroes who want clean offensive pressure.",
+      "price_gold": 390,
+      "unlock_shop_level": 1,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "gear",
+      "stats": {
+        "ATK": 4,
+        "FIRE ATK": 8
+      },
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "tideglass_staff",
+      "name": "Tideglass Staff",
+      "category": "Weapons",
+      "target": "any",
+      "slot": "weapon",
+      "rarity": "Uncommon",
+      "element": "Water",
+      "description": "A flowing staff that rewards patient commanders with steady water scaling.",
+      "price_gold": 390,
+      "unlock_shop_level": 1,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "gear",
+      "stats": {
+        "ATK": 3,
+        "WATER ATK": 9
+      },
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "stonewake_maul",
+      "name": "Stonewake Maul",
+      "category": "Weapons",
+      "target": "any",
+      "slot": "weapon",
+      "rarity": "Uncommon",
+      "element": "Earth",
+      "description": "A crushing earth maul that adds raw force and grounded command.",
+      "price_gold": 400,
+      "unlock_shop_level": 1,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "gear",
+      "stats": {
+        "ATK": 5,
+        "EARTH ATK": 7
+      },
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "skyneedle_bow",
+      "name": "Skyneedle Bow",
+      "category": "Weapons",
+      "target": "any",
+      "slot": "weapon",
+      "rarity": "Uncommon",
+      "element": "Air",
+      "description": "A light bow that makes fast teams feel even cleaner and harder to pin down.",
+      "price_gold": 400,
+      "unlock_shop_level": 1,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "gear",
+      "stats": {
+        "ATK": 3,
+        "SPD": 2,
+        "AIR ATK": 8
+      },
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "coilfang_blade",
+      "name": "Coilfang Blade",
+      "category": "Weapons",
+      "target": "any",
+      "slot": "weapon",
+      "rarity": "Uncommon",
+      "element": "Electric",
+      "description": "An electric dueling blade built for tempo and sudden finishing bursts.",
+      "price_gold": 410,
+      "unlock_shop_level": 1,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "gear",
+      "stats": {
+        "ATK": 4,
+        "SPD": 1,
+        "ELECTRIC ATK": 8
+      },
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "gloamfang_dagger",
+      "name": "Gloamfang Dagger",
+      "category": "Weapons",
+      "target": "any",
+      "slot": "weapon",
+      "rarity": "Uncommon",
+      "element": "Shadow",
+      "description": "A silent dagger that layers clean shadow pressure with sharper critical execution.",
+      "price_gold": 420,
+      "unlock_shop_level": 1,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "gear",
+      "stats": {
+        "ATK": 3,
+        "CRIT CHANCE": 2,
+        "SHADOW ATK": 8
+      },
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "ember_visor",
+      "name": "Ember Visor",
+      "category": "Armor",
+      "target": "any",
+      "slot": "head",
+      "rarity": "Rare",
+      "element": "Fire",
+      "description": "A bright helm that rewards aggressive commanders with better control under heat.",
+      "price_gold": 330,
+      "unlock_shop_level": 2,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "gear",
+      "stats": {
+        "DEF": 2,
+        "FIRE ATK": 5
+      },
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "tideplate_cuirass",
+      "name": "Tideplate Cuirass",
+      "category": "Armor",
+      "target": "any",
+      "slot": "chest",
+      "rarity": "Rare",
+      "element": "Water",
+      "description": "A tidal breastplate tuned for long fights and steady command.",
+      "price_gold": 350,
+      "unlock_shop_level": 2,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "gear",
+      "stats": {
+        "DEF": 3,
+        "HP": 25,
+        "WATER ATK": 4
+      },
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "rootguard_gauntlets",
+      "name": "Rootguard Gauntlets",
+      "category": "Armor",
+      "target": "any",
+      "slot": "hands",
+      "rarity": "Rare",
+      "element": "Earth",
+      "description": "Dense gauntlets that reward patient pressure and stronger front-line command.",
+      "price_gold": 340,
+      "unlock_shop_level": 2,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "gear",
+      "stats": {
+        "DEF": 4,
+        "EARTH ATK": 4
+      },
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "skystride_greaves",
+      "name": "Skystride Greaves",
+      "category": "Armor",
+      "target": "any",
+      "slot": "feet",
+      "rarity": "Rare",
+      "element": "Air",
+      "description": "Greaves built to keep a team light on its feet and first to the clash.",
+      "price_gold": 340,
+      "unlock_shop_level": 2,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "gear",
+      "stats": {
+        "DEF": 2,
+        "SPD": 3,
+        "AIR ATK": 4
+      },
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "stormweave_leggings",
+      "name": "Stormweave Leggings",
+      "category": "Armor",
+      "target": "any",
+      "slot": "legs",
+      "rarity": "Rare",
+      "element": "Electric",
+      "description": "Charged leggings that stabilize movement while feeding a live current into every action.",
+      "price_gold": 345,
+      "unlock_shop_level": 2,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "gear",
+      "stats": {
+        "HP": 20,
+        "SPD": 2,
+        "ELECTRIC ATK": 5
+      },
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "nightveil_mask",
+      "name": "Nightveil Mask",
+      "category": "Armor",
+      "target": "any",
+      "slot": "head",
+      "rarity": "Rare",
+      "element": "Shadow",
+      "description": "A shadow mask that sharpens execution while keeping its wearer hidden in pressure windows.",
+      "price_gold": 350,
+      "unlock_shop_level": 2,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "gear",
+      "stats": {
+        "DEF": 2,
+        "CRIT CHANCE": 2,
+        "SHADOW ATK": 5
+      },
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "cinder_band",
+      "name": "Cinder Band",
+      "category": "Accessories",
+      "target": "any",
+      "slot": "accessory_1",
+      "rarity": "Rare",
+      "element": "Fire",
+      "description": "A hot ring that leans hard into flame aggression and slightly better market sales.",
+      "price_gold": 420,
+      "unlock_shop_level": 2,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "gear",
+      "stats": {
+        "ATK": 2,
+        "FIRE ATK": 6
+      },
+      "economy": {
+        "sale_bonus_pct": 4
+      },
+      "use_effects": []
+    },
+    {
+      "id": "tide_charm",
+      "name": "Tide Charm",
+      "category": "Accessories",
+      "target": "any",
+      "slot": "accessory_2",
+      "rarity": "Rare",
+      "element": "Water",
+      "description": "A calm charm that reinforces water output while making market fees easier to stomach.",
+      "price_gold": 420,
+      "unlock_shop_level": 2,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "gear",
+      "stats": {
+        "HP": 15,
+        "WATER ATK": 6
+      },
+      "economy": {
+        "market_fee_discount_pct": 4
+      },
+      "use_effects": []
+    },
+    {
+      "id": "root_talisman",
+      "name": "Root Talisman",
+      "category": "Accessories",
+      "target": "any",
+      "slot": "charm",
+      "rarity": "Rare",
+      "element": "Earth",
+      "description": "A grounded talisman that rewards steady buyers with better gear value.",
+      "price_gold": 430,
+      "unlock_shop_level": 2,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "gear",
+      "stats": {
+        "DEF": 2,
+        "EARTH ATK": 6
+      },
+      "economy": {
+        "shop_discount_pct": 4
+      },
+      "use_effects": []
+    },
+    {
+      "id": "gale_feather",
+      "name": "Gale Feather",
+      "category": "Accessories",
+      "target": "any",
+      "slot": "sigil",
+      "rarity": "Rare",
+      "element": "Air",
+      "description": "A quick sigil that lightens movement and improves listing agility.",
+      "price_gold": 430,
+      "unlock_shop_level": 2,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "gear",
+      "stats": {
+        "SPD": 2,
+        "AIR ATK": 6
+      },
+      "economy": {
+        "listing_cap_bonus": 1
+      },
+      "use_effects": []
+    },
+    {
+      "id": "spark_loop",
+      "name": "Spark Loop",
+      "category": "Accessories",
+      "target": "any",
+      "slot": "banner",
+      "rarity": "Rare",
+      "element": "Electric",
+      "description": "A live electric band that pays off fast-moving trade turns.",
+      "price_gold": 430,
+      "unlock_shop_level": 2,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "gear",
+      "stats": {
+        "SPD": 1,
+        "ELECTRIC ATK": 6
+      },
+      "economy": {
+        "buy_order_bonus_pct": 5
+      },
+      "use_effects": []
+    },
+    {
+      "id": "shadow_locket",
+      "name": "Shadow Locket",
+      "category": "Accessories",
+      "target": "any",
+      "slot": "accessory_2",
+      "rarity": "Rare",
+      "element": "Shadow",
+      "description": "A dark locket that steadies risky trades and sharpens critical shadow pressure.",
+      "price_gold": 440,
+      "unlock_shop_level": 2,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "gear",
+      "stats": {
+        "CRIT CHANCE": 2,
+        "SHADOW ATK": 6
+      },
+      "economy": {
+        "barter_bonus_pct": 5
+      },
+      "use_effects": []
+    },
+    {
+      "id": "cinder_ore",
+      "name": "Cinder Ore",
+      "category": "Materials",
+      "target": "any",
+      "slot": null,
+      "rarity": "Common",
+      "element": "Fire",
+      "description": "Forging ore prized in flame weapon trades and relic commissions.",
+      "price_gold": 110,
+      "unlock_shop_level": 1,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "material",
+      "stats": {},
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "tideglass",
+      "name": "Tideglass",
+      "category": "Materials",
+      "target": "any",
+      "slot": null,
+      "rarity": "Common",
+      "element": "Water",
+      "description": "A smooth water-forged component used in calmer, denser market work.",
+      "price_gold": 110,
+      "unlock_shop_level": 1,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "material",
+      "stats": {},
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "rootbark_core",
+      "name": "Rootbark Core",
+      "category": "Materials",
+      "target": "any",
+      "slot": null,
+      "rarity": "Common",
+      "element": "Earth",
+      "description": "A dense earth component that keeps barter recipes stable and valuable.",
+      "price_gold": 115,
+      "unlock_shop_level": 1,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "material",
+      "stats": {},
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "sky_silk",
+      "name": "Sky Silk",
+      "category": "Materials",
+      "target": "any",
+      "slot": null,
+      "rarity": "Common",
+      "element": "Air",
+      "description": "A rare thread light enough to show up across fast-turn market bundles.",
+      "price_gold": 115,
+      "unlock_shop_level": 1,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "material",
+      "stats": {},
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "volt_crystal",
+      "name": "Volt Crystal",
+      "category": "Materials",
+      "target": "any",
+      "slot": null,
+      "rarity": "Common",
+      "element": "Electric",
+      "description": "A charged crystal that keeps mixed deals feeling premium without becoming legendary.",
+      "price_gold": 120,
+      "unlock_shop_level": 1,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "material",
+      "stats": {},
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "umbral_thread",
+      "name": "Umbral Thread",
+      "category": "Materials",
+      "target": "any",
+      "slot": null,
+      "rarity": "Common",
+      "element": "Shadow",
+      "description": "A dark weaving filament valued in precise barter chains and shadow commissions.",
+      "price_gold": 120,
+      "unlock_shop_level": 1,
+      "stock_rule": "unlimited",
+      "market_allowed": true,
+      "sell_profile": "material",
+      "stats": {},
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "pyronis_shard",
+      "name": "Pyronis Shard",
+      "category": "Shards",
+      "target": "any",
+      "slot": null,
+      "rarity": "Epic",
+      "element": "Fire",
+      "description": "A hero-grade shard carrying a bright trace of Pyronis command.",
+      "price_gold": 460,
+      "unlock_shop_level": 3,
+      "stock_rule": "limited",
+      "stock_limit": 2,
+      "restock_seconds": 3600,
+      "market_allowed": true,
+      "sell_profile": "special",
+      "stats": {},
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "aquaryn_shard",
+      "name": "Aquaryn Shard",
+      "category": "Shards",
+      "target": "any",
+      "slot": null,
+      "rarity": "Epic",
+      "element": "Water",
+      "description": "A commander shard etched with patient water power and deeper market demand.",
+      "price_gold": 460,
+      "unlock_shop_level": 3,
+      "stock_rule": "limited",
+      "stock_limit": 2,
+      "restock_seconds": 3600,
+      "market_allowed": true,
+      "sell_profile": "special",
+      "stats": {},
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "terradon_shard",
+      "name": "Terradon Shard",
+      "category": "Shards",
+      "target": "any",
+      "slot": null,
+      "rarity": "Epic",
+      "element": "Earth",
+      "description": "A grounded shard that often appears in premium barter demands.",
+      "price_gold": 460,
+      "unlock_shop_level": 3,
+      "stock_rule": "limited",
+      "stock_limit": 2,
+      "restock_seconds": 3600,
+      "market_allowed": true,
+      "sell_profile": "special",
+      "stats": {},
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "zephyros_shard",
+      "name": "Zephyros Shard",
+      "category": "Shards",
+      "target": "any",
+      "slot": null,
+      "rarity": "Epic",
+      "element": "Air",
+      "description": "A light shard that tends to move faster than its gold tag suggests.",
+      "price_gold": 460,
+      "unlock_shop_level": 3,
+      "stock_rule": "limited",
+      "stock_limit": 2,
+      "restock_seconds": 3600,
+      "market_allowed": true,
+      "sell_profile": "special",
+      "stats": {},
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "voltaris_shard",
+      "name": "Voltaris Shard",
+      "category": "Shards",
+      "target": "any",
+      "slot": null,
+      "rarity": "Epic",
+      "element": "Electric",
+      "description": "A fast-moving shard that traders treat like liquid current.",
+      "price_gold": 460,
+      "unlock_shop_level": 3,
+      "stock_rule": "limited",
+      "stock_limit": 2,
+      "restock_seconds": 3600,
+      "market_allowed": true,
+      "sell_profile": "special",
+      "stats": {},
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "noctyra_shard",
+      "name": "Noctyra Shard",
+      "category": "Shards",
+      "target": "any",
+      "slot": null,
+      "rarity": "Epic",
+      "element": "Shadow",
+      "description": "A rare shadow shard that quietly anchors many luxury exchanges.",
+      "price_gold": 460,
+      "unlock_shop_level": 3,
+      "stock_rule": "limited",
+      "stock_limit": 2,
+      "restock_seconds": 3600,
+      "market_allowed": true,
+      "sell_profile": "special",
+      "stats": {},
+      "economy": {},
+      "use_effects": []
+    },
+    {
+      "id": "inferno_relic",
+      "name": "Inferno Relic",
+      "category": "Elemental Specials",
+      "target": "commander",
+      "slot": "relic",
+      "rarity": "Mythic",
+      "element": "Fire",
+      "description": "A blazing relic that turns luxury fire builds into real statement pieces.",
+      "price_gold": 1260,
+      "unlock_shop_level": 4,
+      "branch_requirements": {
+        "Prestige": 2,
+        "Relics": 2
+      },
+      "stock_rule": "limited",
+      "stock_limit": 1,
+      "restock_seconds": 3600,
+      "market_allowed": true,
+      "sell_profile": "special",
+      "stats": {
+        "ATK": 3,
+        "FIRE ATK": 12
+      },
+      "economy": {
+        "shop_discount_pct": 6
+      },
+      "use_effects": []
+    },
+    {
+      "id": "abyssal_relic",
+      "name": "Abyssal Relic",
+      "category": "Elemental Specials",
+      "target": "commander",
+      "slot": "relic",
+      "rarity": "Mythic",
+      "element": "Water",
+      "description": "A deepwater relic prized by patient commanders and fee-sensitive traders.",
+      "price_gold": 1260,
+      "unlock_shop_level": 4,
+      "branch_requirements": {
+        "Prestige": 2,
+        "Relics": 2
+      },
+      "stock_rule": "limited",
+      "stock_limit": 1,
+      "restock_seconds": 3600,
+      "market_allowed": true,
+      "sell_profile": "special",
+      "stats": {
+        "HP": 30,
+        "WATER ATK": 12
+      },
+      "economy": {
+        "market_fee_discount_pct": 6
+      },
+      "use_effects": []
+    },
+    {
+      "id": "bedrock_relic",
+      "name": "Bedrock Relic",
+      "category": "Elemental Specials",
+      "target": "commander",
+      "slot": "relic",
+      "rarity": "Mythic",
+      "element": "Earth",
+      "description": "An earth relic with heavy luxury demand and strong gear-market synergy.",
+      "price_gold": 1260,
+      "unlock_shop_level": 4,
+      "branch_requirements": {
+        "Prestige": 2,
+        "Relics": 2
+      },
+      "stock_rule": "limited",
+      "stock_limit": 1,
+      "restock_seconds": 3600,
+      "market_allowed": true,
+      "sell_profile": "special",
+      "stats": {
+        "DEF": 4,
+        "EARTH ATK": 12
+      },
+      "economy": {
+        "sale_bonus_pct": 6
+      },
+      "use_effects": []
+    },
+    {
+      "id": "skylight_relic",
+      "name": "Skylight Relic",
+      "category": "Elemental Specials",
+      "target": "commander",
+      "slot": "relic",
+      "rarity": "Mythic",
+      "element": "Air",
+      "description": "A quick relic that turns listing mobility into a real edge.",
+      "price_gold": 1260,
+      "unlock_shop_level": 4,
+      "branch_requirements": {
+        "Prestige": 2,
+        "Relics": 2
+      },
+      "stock_rule": "limited",
+      "stock_limit": 1,
+      "restock_seconds": 3600,
+      "market_allowed": true,
+      "sell_profile": "special",
+      "stats": {
+        "SPD": 3,
+        "AIR ATK": 12
+      },
+      "economy": {
+        "listing_cap_bonus": 1
+      },
+      "use_effects": []
+    },
+    {
+      "id": "thunder_relic",
+      "name": "Thunder Relic",
+      "category": "Elemental Specials",
+      "target": "commander",
+      "slot": "relic",
+      "rarity": "Mythic",
+      "element": "Electric",
+      "description": "A charged relic prized by players who want faster market resolution and sharper tempo.",
+      "price_gold": 1260,
+      "unlock_shop_level": 4,
+      "branch_requirements": {
+        "Prestige": 2,
+        "Relics": 2
+      },
+      "stock_rule": "limited",
+      "stock_limit": 1,
+      "restock_seconds": 3600,
+      "market_allowed": true,
+      "sell_profile": "special",
+      "stats": {
+        "SPD": 2,
+        "ELECTRIC ATK": 12
+      },
+      "economy": {
+        "buy_order_bonus_pct": 8
+      },
+      "use_effects": []
+    },
+    {
+      "id": "eclipse_relic",
+      "name": "Eclipse Relic",
+      "category": "Elemental Specials",
+      "target": "commander",
+      "slot": "relic",
+      "rarity": "Legendary",
+      "element": "Shadow",
+      "description": "A luxury shadow relic reserved for the commander's rarest market ambitions.",
+      "price_gold": 1680,
+      "unlock_shop_level": 5,
+      "branch_requirements": {
+        "Prestige": 4,
+        "Relics": 3
+      },
+      "stock_rule": "one_time",
+      "market_allowed": true,
+      "sell_profile": "special",
+      "stats": {
+        "CRIT CHANCE": 4,
+        "SHADOW ATK": 16
+      },
+      "economy": {
+        "sale_bonus_pct": 10,
+        "market_fee_discount_pct": 8
+      },
+      "use_effects": []
+    }
+  ],
+  "barter_recipes": [
+    {
+      "id": "forge_fire_weapon",
+      "output_item_id": "ashbrand_spear",
+      "output_qty": 1,
+      "requires_items": [
+        {
+          "item_id": "cinder_ore",
+          "qty": 2
+        }
+      ],
+      "requires_gold": 110
+    },
+    {
+      "id": "forge_water_weapon",
+      "output_item_id": "tideglass_staff",
+      "output_qty": 1,
+      "requires_items": [
+        {
+          "item_id": "tideglass",
+          "qty": 2
+        }
+      ],
+      "requires_gold": 110
+    },
+    {
+      "id": "forge_earth_weapon",
+      "output_item_id": "stonewake_maul",
+      "output_qty": 1,
+      "requires_items": [
+        {
+          "item_id": "rootbark_core",
+          "qty": 2
+        }
+      ],
+      "requires_gold": 120
+    },
+    {
+      "id": "forge_air_weapon",
+      "output_item_id": "skyneedle_bow",
+      "output_qty": 1,
+      "requires_items": [
+        {
+          "item_id": "sky_silk",
+          "qty": 2
+        }
+      ],
+      "requires_gold": 120
+    },
+    {
+      "id": "forge_electric_weapon",
+      "output_item_id": "coilfang_blade",
+      "output_qty": 1,
+      "requires_items": [
+        {
+          "item_id": "volt_crystal",
+          "qty": 2
+        }
+      ],
+      "requires_gold": 130
+    },
+    {
+      "id": "forge_shadow_weapon",
+      "output_item_id": "gloamfang_dagger",
+      "output_qty": 1,
+      "requires_items": [
+        {
+          "item_id": "umbral_thread",
+          "qty": 2
+        }
+      ],
+      "requires_gold": 130
+    },
+    {
+      "id": "luxury_fire_relic",
+      "output_item_id": "inferno_relic",
+      "output_qty": 1,
+      "requires_items": [
+        {
+          "item_id": "cinder_ore",
+          "qty": 2
+        },
+        {
+          "item_id": "pyronis_shard",
+          "qty": 1
+        }
+      ],
+      "requires_gold": 360
+    },
+    {
+      "id": "luxury_water_relic",
+      "output_item_id": "abyssal_relic",
+      "output_qty": 1,
+      "requires_items": [
+        {
+          "item_id": "tideglass",
+          "qty": 2
+        },
+        {
+          "item_id": "aquaryn_shard",
+          "qty": 1
+        }
+      ],
+      "requires_gold": 360
+    },
+    {
+      "id": "luxury_earth_relic",
+      "output_item_id": "bedrock_relic",
+      "output_qty": 1,
+      "requires_items": [
+        {
+          "item_id": "rootbark_core",
+          "qty": 2
+        },
+        {
+          "item_id": "terradon_shard",
+          "qty": 1
+        }
+      ],
+      "requires_gold": 360
+    },
+    {
+      "id": "luxury_air_relic",
+      "output_item_id": "skylight_relic",
+      "output_qty": 1,
+      "requires_items": [
+        {
+          "item_id": "sky_silk",
+          "qty": 2
+        },
+        {
+          "item_id": "zephyros_shard",
+          "qty": 1
+        }
+      ],
+      "requires_gold": 360
+    },
+    {
+      "id": "luxury_electric_relic",
+      "output_item_id": "thunder_relic",
+      "output_qty": 1,
+      "requires_items": [
+        {
+          "item_id": "volt_crystal",
+          "qty": 2
+        },
+        {
+          "item_id": "voltaris_shard",
+          "qty": 1
+        }
+      ],
+      "requires_gold": 360
+    },
+    {
+      "id": "luxury_shadow_relic",
+      "output_item_id": "eclipse_relic",
+      "output_qty": 1,
+      "requires_items": [
+        {
+          "item_id": "umbral_thread",
+          "qty": 2
+        },
+        {
+          "item_id": "noctyra_shard",
+          "qty": 1
+        }
+      ],
+      "requires_gold": 460
+    }
+  ]
+}
